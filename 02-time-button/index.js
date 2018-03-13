@@ -6,8 +6,11 @@ var time = setInterval(function(){
   button.innerHTML = '同意'+ i-- +'s';
   if(i== -1){
     clearInterval(time);
-    button.innerHTML='同意'；
+    button.innerHTML = '同意';
     button.removeAttribute('diabled');
   }
-},1000)；
+},1000);
 
+button.onclick=function(){
+  alert('你已经同意！');
+};
