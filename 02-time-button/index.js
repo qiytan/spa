@@ -9,5 +9,5 @@ var time = setInterval(function(){
     button.innerHTML='同意';
     button.removeAttribute('diabled');
   }
-},1000)；
+},1000);
 
