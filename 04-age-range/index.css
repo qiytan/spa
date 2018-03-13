@@ -1,0 +1,17 @@
+div{
+  margin-top:20px;
+  margin-left:20px;
+}
+label{
+  position:absolute;
+  margin-top:-10px;
+}
+#range{
+  margin-top:10px;
+  width:300px;
+}
+#p-age{
+  font-size:21px;
+  font-weight:bold;
+}
+

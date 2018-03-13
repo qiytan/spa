@@ -1,0 +1,18 @@
+
+#progress{
+  width:300px;
+  margin-top:30px;
+  margin-left:20px;
+}
+#begin{
+  margin-top:10px;
+  margin-left:20px;
+}
+#pause{
+  margin-top:10px;
+  margin-left:20px;
+}
+#reset{
+  margin-top:10px;
+  margin-left:20px;
+}

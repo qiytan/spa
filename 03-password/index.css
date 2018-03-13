@@ -1,0 +1,23 @@
+
+body{
+  font-size:1em;
+  line-height:2em;
+}
+#password{
+  width:220px;
+}
+#img{
+  height:25px;
+  position:relative;
+  top:8px;
+  left:-40px;
+  z-index:9;
+}
+#pw2{
+  width:150px;
+  border:#fff;
+  display:none;
+  position:absolute;
+  left:62px;
+  top:19px;
+}
