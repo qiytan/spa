@@ -1,16 +1,17 @@
 var button = document.getElementById('timeButton');
 var i = 9;
-button.setAttribute('diszbled','disabled');
-button.innerHTML='同意'+ i + 's';
-var time = setInterval(function(){
-  button.innerHTML = '同意'+ i-- +'s';
-  if(i== -1){
-    clearInterval(time);
-    button.innerHTML = '同意';
-    button.removeAttribute('diabled');
-  }
-},1000);
+var time;
+button.innerHTML= '还剩'+ i + 's';
+button.setAttribute('disabled','disabled');
+time=function(){
+  setInterval(function(){
+    i--;
+    button.innerHTML = '还剩'+ i + 's';
+    if(i == 0)
+    {
+      clearInterval(time);
+      button.innerHTML = '点击';
+    }
 
-button.onclick=function(){
-  alert('你已经同意！');
+  },1000);
 };
