@@ -12,6 +12,5 @@ time=function(){
       clearInterval(time);
       button.innerHTML = '点击';
     }
-
   },1000);
 };
