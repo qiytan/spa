@@ -3,6 +3,7 @@ var timer=0;
 var progress=document.getElementById('progress');
 var begin=document.getElementById('begin');
 begin.onclick=function(){
+  
   timer=setInterval(function(){
     progress.value++;
     if(progress.value>100){
